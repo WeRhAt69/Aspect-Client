@@ -1,0 +1,3 @@
+- Keep the mod client-only because its menu and placeholder module state never require server authority.
+- Keep module behavior separated from GUI rendering so real, permitted features can be added without restructuring the interface.
+- Keep interface motion frame-delta based so animations remain smooth at different frame rates.
